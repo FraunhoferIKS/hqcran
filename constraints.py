@@ -76,10 +76,6 @@ class ConstraintsGenerator:
         :return: numpy.ndarray
             input boundaries
         """
-        n_rows, n_cols, n_channels = 28, 28, 1
-        # else:
-        #     n_rows, n_cols, n_channels = 32, 32, 3
-        means, stds = [0], [1]
         perturbation = epsilon
         upper_image = np.array(self.image + perturbation, dtype=np.float64)
         lower_image = np.array(self.image - perturbation, dtype=np.float64)

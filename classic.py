@@ -20,9 +20,6 @@ class CompleteVerification():
         """ 
         MILP optimization for comparison
 
-        :param example: (int) if greater than zero than the verification run only on that specific example
-        
-        :return results: (list) solution and objective
         """
         self.A, self.B, self.C, self.b, self.d, self.g = matrices
 
@@ -58,10 +55,7 @@ class IncompleteVerification():
 
         """ 
         LP optimization for comparison
-
-        :param example: (int) if greater than zero than the verification run only on that specific example
         
-        :return results: (list) solution and objective
         """
         self.A, self.B, self.C, self.b, self.d, self.g = matrices 
         self.model = Model("Pure Classic") # Initialize the model
