@@ -1,0 +1,34 @@
+onnxpath: data/nets/onnx/relu_2_20_PGD.onnx
+netname: mnist_2_20
+torchpath: data/nets/torch/mnist_2_20_PGD.pth
+dataset: data/datasets/mnist_test.csv                        
+output: data/results/dw_ibp/
+solver: cplex
+epsilon: 0.06274509803
+weight_t: 1
+weight_p: 0.01
+weight_x: 0.1
+sub_bound: 10
+objectives_gap: 0.1
+start: 0
+end: 100
+steps: 100
+classic: True
+dwave_reads: 100
+threads: 144
+verbose: False
+real_var: False
+qubo: True
+magnanti: True
+hamming: True
+# max_cuts: 5
+gurobi: False
+decomposition: "dantzig-wolfe" # benders dantzig-wolfe
+crown_ibp: True
+
+# Epsilon values:
+# 1/255  -> 0.00392156862
+# 2/255  -> 0.00784313725
+# 4/255  -> 0.0156862745
+# 8/255  -> 0.03137254901
+# 16/255 -> 0.06274509803
