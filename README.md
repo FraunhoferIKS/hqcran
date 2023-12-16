@@ -127,11 +127,14 @@ Please cite our paper if you use HQ-CRAN in your research.
     pages={142-153},
     doi={10.1109/QCE53715.2022.00033}}
 
-2. [Efficient MILP Decomposition in Quantum Computing for ReLU Network Robustness](https://arxiv.org/abs/2305.00472)
+2. [Efficient MILP Decomposition in Quantum Computing for ReLU Network Robustness](https://ieeexplore.ieee.org/document/10313804)
     ```bibtex
-    @article{franco2023efficient,
-    title={Efficient MILP Decomposition in Quantum Computing for ReLU Network Robustness},
-    author={Franco, Nicola and Wollschl{\"a}ger, Tom and Poggel, Benedikt and G{\"u}nnemann, Stephan and Lorenz, Jeanette Miriam},
-    journal={arXiv preprint arXiv:2305.00472},
-    year={2023}
-    }
+    @INPROCEEDINGS{10313804,
+    author={Franco, Nicola and Wollschläger, Tom and Poggel, Benedikt and Günnemann, Stephan and Lorenz, Jeanette Miriam},
+    booktitle={2023 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+    title={Efficient MILP Decomposition in Quantum Computing for ReLU Network Robustness}, 
+    year={2023},
+    volume={01},
+    number={},
+    pages={524-534},
+    doi={10.1109/QCE57702.2023.00066}}
